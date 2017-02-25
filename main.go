@@ -7,5 +7,5 @@ import (
 
 func main() {
 	routes := ping.Routes()
-	http.StartServer(http.Server{Host: "127.0.0.1", Port: "7777"}, routes)
+	http.StartServer(http.Server{Port: "7777"}, routes)
 }
